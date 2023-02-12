@@ -33,6 +33,7 @@ class Interface:
                     result = functions.bhaskara(self.a, self.b,self.c)
                     functions.step(self.a, self.b, self.c)
                     
+                    
                     self.window["result"].update(f"O resultado é {result}")
                     self.window["step"].update("Veja o passo a passo no arquivo txt na pasta do projeto.")
                 except:
